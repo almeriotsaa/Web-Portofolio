@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="./img/iconport.svg" type="image/png" sizes="16x16">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<link rel="stylesheet" href="sweetalert2.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>My Portfolio</title>
+</head>
+
+<body>
+	<div id="preloader">
+		<div id="status">
+		</div>
+	</div>
+	<section id="home">
+		<nav>
+			<a href="index.html" class="logo"><b>Port</b>Folio</a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#skill">Skill</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="text-container">
+			<p>Hello,</p>
+			<p class="animate__animated">I&#8217;M Almerio Tsany</p>
+			<p>I&#8217;M <span id="type"></span></p>
+			<p>I am Software Engineer at IDN Boarding School Jonggol</p>
+			<form action="./attr/CV - Almerio Tsany Fauzan S.pdf" target="_blank">
+				<button id="hire-btn">Hire Me</button>
+				<button id="down-cv">Download CV</button>
+			</form>
+		</div>
+		<img src="../img/introport.png" class="model" id="model" data-aos="zoom-out-down" data-aos-duration="3000">
+	</section>
+	<section id="about" class="about">
+		<div class="about-text">
+			<p>About Me</p>
+		</div>
+		<img src="./img/potos.jpg" id="model2" class="model2" data-aos="fade-right" data-aos-duration="3000">
+		<div class="text-container2">
+			<table width="400px" height="200px" data-aos="fade-left" data-aos-duration="3000">
+				<tr>
+					<td colspan="2">About Me</td>
+				</tr>
+				<tr>
+					<th>Name</th>
+					<td>Almerio Tsany</td>
+				</tr>
+				<tr>
+					<th>NISN</th>
+					<td>0062581337</td>
+				</tr>
+				<tr>
+					<th>City</th>
+					<td>Bekasi</td>
+				</tr>
+				<tr>
+					<th>Email</th>
+					<td>almerio.tsany@gmail.com</td>
+				</tr>
+				<tr>
+					<th>Job</th>
+					<td>Software Engineer</td>
+				</tr>
+			</table>
+		</div>
+	</section>
+	<section class="skill" id="skill">
+		<div class="skill-text">
+			<p>My Skill</p>
+			<p>I am Software Engineer at IDN Boarding School Jonggol, and I student 11 RPLB grade. My skill is much,
+				there is a Kotlin, Web, HTML, CSS, Flutter, JS. I'm also happy because I have a lot of skills because
+				thanks to that I really want to study
+			</p>
+		</div>
+		<div class="box-container">
+			<div class="box-1" data-aos="fade-right" data-aos-duration="3000">
+				<span>1</span>
+				<p class="heading" style="color: black;">Kotlin</p>
+				<p class="detail">
+					<img src="https://blog.logrocket.com/wp-content/uploads/2022/07/Guide-to-Kotlin-design-patterns.png"
+						width="150" height="100">
+				</p>
+				<button id="box1">Read More</button>
+			</div>
+			<div class="box-2" data-aos="fade-down" data-aos-duration="3000">
+				<span>2</span>
+				<p class="heading" style="color: black;">Flutter</p>
+				<p class="detail">
+					<img src="https://redwerk.es/wp-content/uploads/2020/08/f-image.png" width="150" height="100">
+				</p>
+				<button id="box2">Read More</button>
+			</div>
+			<div class="box-3" data-aos="fade-left" data-aos-duration="3000">
+				<span>3</span>
+				<p class="heading" style="color: black;">HTML & CSS</p>
+				<p class="detail">
+					<img src="https://devskiller.com/wp-content/uploads/2020/09/screen-html5-devs.jpg" width="150"
+						height="100">
+				</p>
+				<button id="box3">Read More</button>
+			</div>
+		</div>
+	</section>
+	<footer id="contact">
+		<p>Contact Me</p>
+		<a href="https://wa.me/62895622690330" target="_blank" class="btn-whatsapp"><i
+				class='bx bxl-whatsapp'></i>Whatsapp Me</a>
+		<p class="copyright">© 2022 Almerio Tsany</p>
+	</footer>
+	<div class="social">
+		<a href="mailto:almeriotsany@gmail.com" target="_blank" class="gmail"><i class='bx bxl-gmail'></i></a>
+		<a href="" target="_blank" class="facebook"><i class='bx bxl-facebook'></i></a>
+		<a href="" target="_blank" class="instagram"><i class='bx bxl-instagram-alt'></i></a>
+		<a href="" target="_blank" class="youtube"><i class='bx bxl-youtube'></i></a>
+		<a href="" target="_blank" class="linkedin"><i class='bx bxl-linkedin'></i></a>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+		integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script>
+		$(document).ready(function () {
+			$('#status').fadeOut(10000);
+			$('#preloader').delay(1000).fadeOut(1000);
+			$('body').delay(500).css({
+				'overflow': 'visible'
+			});
+
+			new Typed('#type', {
+				strings: ['Student', 'Web Developer', 'Software Developer', 'Flutter Developer'],
+				typeSpeed: 100,
+				delayspeed: 100,
+				backSpeed: 100,
+				loop: true
+			});
+
+			$('#model2').mousemove(function (event) {
+				$(this).addClass('animate__heartBeat');
+				// timeout
+				setTimeout(function () {
+					$('#model2').removeClass('animate__heartBeat');
+				}, 2000);
+			});
+		})
+
+		$(document).on('click', '#box1', function (event) {
+			Swal.fire({
+				title: '<strong>Kotlin</strong>',
+				html: '- I have been learning Kotlin for 1 year <br/>' +
+					'- I have been craeting app with kotlin <br/>' +
+					'- I have been learning notification kotlin <br/>',
+				showCloseButton: false,
+				showCancelButton: false,
+				focusConfirm: false,
+			})
+		})
+
+		$(document).on('click', '#box2', function (event) {
+			Swal.fire({
+				title: '<strong>Flutter</strong>',
+				html: '- I have been learning Flutter for 1 year <br/>' +
+					'- I have been creating app with flutter <br/>' +
+					'- I have been learning firebase auth flutter <br/>',
+				showCloseButton: false,
+				showCancelButton: false,
+				focusConfirm: false,
+			})
+		})
+
+		$(document).on('click', '#box3', function (event) {
+			Swal.fire({
+				title: '<strong>HTML & CSS</strong>',
+				html: '- I have been learning HTML & CSS <br/>' +
+					'- I have been learning Javascript <br/>' +
+					'- I have been creating web with HTML & CSS <br/>',
+				showCloseButton: false,
+				showCancelButton: false,
+				focusConfirm: false,
+			})
+		})
+		AOS.init()
+	</script>
+</body>
+
+</html>
